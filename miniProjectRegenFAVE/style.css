@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+body{
+  background-image: url("img/colorrrr.jpg");
+  background-size:cover;
+}
+
+.wrapper{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  max-width: 350px;
+  width: 100%;
+  padding: 25px;
+  border-radius: 5px;
+}
+
+.wrapper2{
+  position: absolute;
+  top: 41%;
+  left: 90%;
+  transform: translate(-50%,-50%);
+  max-width: 350px;
+  width: 100%;
+  padding: 25px;
+  border-radius: 5px;
+}
+
+.wrapper3{
+  position: absolute;
+  top: 55%;
+  left: 90%;
+  transform: translate(-50%,-50%);
+  max-width: 350px;
+  width: 100%;
+  padding: 25px;
+  border-radius: 5px;
+}
+
+.wrapper4{
+  position: relative;
+  top: 60%;
+  bottom: 10%;
+  left: 20%;
+  transform: translate(-50%,-50%);
+  max-width: 350px;
+  width: 100%;
+  padding: 25px;
+  border-radius: 5px;
+}
+
+img {
+  position: relative;
+  padding-top: 30%;
+  float: left;
+  top: 50%;
+}
+
+.wrapper h2{
+  text-align: center;
+  margin-bottom: 20px;
+  text-transform: none;
+  font-weight: bold;
+  font-size: x-large;
+  letter-spacing: 3px;
+  color: #332902;
+}
+
+h3{
+  font-weight: lighter;
+}
+
+.wrapper .input_field{
+  margin-bottom: 10px;
+}
+
+.wrapper .input_field input,
+.wrapper textarea{
+  border: 1px solid #e0e0e0;
+  width: 100%;
+  padding: 10px;
+}
+
+.wrapper textarea{
+  resize: none;
+  height: 80px;
+}
+
+.image-container{
+  display: flex;
+  align-items: center;
+}
+
+
+
+.wrapper .btn input[type="submit"]{
+  border: 0px;
+  margin-top: 15px;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  background: #000000;
+  color: #ffffff;
+  text-transform: none;
+  font-family:sans-serif;
+  letter-spacing: 5px;
+  font-weight: bold;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+
+
+#error_message{
+  margin-bottom: 20px;
+  background: #fe8b8e;
+  padding: 0px;
+  text-align: center;
+  font-size: 14px;
+  transition: all 0.5s ease;
+}
